@@ -1,9 +1,7 @@
 package com.example.springrestapp.configBeans;
 
 import com.example.springrestapp.configuration.WorkshopInfo;
-import com.example.springrestapp.repository.CarRepository;
-import com.example.springrestapp.repository.InMemoryRepo;
-import com.example.springrestapp.service.CarService;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -2,23 +2,18 @@ package com.example.springrestapp.controller.car;
 
 import com.example.springrestapp.controller.car.request.DeleteCarParamsReq;
 import com.example.springrestapp.controller.car.response.DeleteCarParamsResp;
-import com.example.springrestapp.exceptions.OwnCarExceptions;
 import com.example.springrestapp.model.Car;
 import com.example.springrestapp.model.FuelType;
-import com.example.springrestapp.repository.CarRepository;
-import com.example.springrestapp.service.CarService;
+import com.example.springrestapp.service.car.CarService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 
 @RestController

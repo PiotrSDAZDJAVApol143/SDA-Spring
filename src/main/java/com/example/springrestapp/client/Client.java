@@ -1,4 +1,4 @@
-package com.example.springrestapp.Client;
+package com.example.springrestapp.client;
 
 import jakarta.validation.constraints.AssertTrue;
 import jakarta.validation.constraints.Email;
@@ -23,10 +23,10 @@ public class Client {
     @NotNull(message = "email cannot be null")
     @Email
     private String email;
-    @NotNull(message = "email cannot be null")
+    @NotNull(message = "Phone number cannot be null")
     private String phoneNumber;
     @Range(min = 1900, max =2016)
-    private Integer rokUrodzenia;
+    private Integer yearOfBirth;
     @PESEL
     private String pesel;
     @AssertTrue(message = "Client is Premium")

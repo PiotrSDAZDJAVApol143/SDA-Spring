@@ -1,9 +1,9 @@
-package com.example.springrestapp.service;
+package com.example.springrestapp.service.car;
 
 import com.example.springrestapp.model.Car;
 
 import com.example.springrestapp.model.FuelType;
-import com.example.springrestapp.repository.CarRepository;
+import com.example.springrestapp.repository.car.CarRepository;
 import org.springframework.stereotype.Service;
 
 

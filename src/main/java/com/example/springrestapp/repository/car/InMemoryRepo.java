@@ -1,4 +1,4 @@
-package com.example.springrestapp.repository;
+package com.example.springrestapp.repository.car;
 
 import com.example.springrestapp.model.Car;
 import com.example.springrestapp.model.FuelType;
