@@ -29,7 +29,8 @@ public class Client {
     private Integer yearOfBirth;
     @PESEL
     private String pesel;
-    @AssertTrue(message = "Client is Premium")
+    //@AssertTrue(message = "Client is Premium")
+    @NotNull(message = "Premium status cannot be null, its true or false")
     private Boolean isPremium;
 
 

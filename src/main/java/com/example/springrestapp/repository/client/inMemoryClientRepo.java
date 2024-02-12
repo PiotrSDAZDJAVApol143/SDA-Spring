@@ -11,6 +11,15 @@ public class inMemoryClientRepo implements ClientRepository {
 
     static {
         clientMap = new HashMap<>();
+        clientMap.put(1,Client.builder()
+                .firstName("Piotr")
+                .lastName("Kus")
+                .email("kus@gmail.com")
+                .phoneNumber("511511511")
+                .yearOfBirth(1988)
+                .pesel("88010101001")
+                .isPremium(true)
+                .build());
     }
 
     @Override
